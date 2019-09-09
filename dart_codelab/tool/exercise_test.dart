@@ -1,7 +1,9 @@
 import 'package:test/test.dart';
+import 'combined.dart' as combined;
 
 void main() {
   test('Exercise runs correctly', () {
-    expect(true, true);
+    combined.main();
+    expect(combined.lastSuccess, true);
   });
 }
