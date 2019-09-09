@@ -1,7 +1,3 @@
-// {begin_dartpad_ignore}
-import 'main.dart';
-import 'utils.dart';
-// {end_dartpad_ignore}
 void main() {
   try {
     final str = empower(2, 3); 

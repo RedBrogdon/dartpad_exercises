@@ -1,0 +1,8 @@
+name: codelab_tests
+version: 1.0.0
+description: >-
+  This isn't a real project. It's just for testing codelab exercises.
+environment:
+  sdk: '>=2.5.0 <3.0.0'
+dev_dependencies:
+  test: ^1.6.9
