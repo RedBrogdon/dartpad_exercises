@@ -1,0 +1,9 @@
+{
+  "name": "A Flutter Exercise",
+  "files": {
+    "main.dart": "main.dart", 
+    "test.dart": "test.dart", 
+    "solution.dart" : "solution.dart",
+    "hint.txt": "hint.txt"
+  }
+}

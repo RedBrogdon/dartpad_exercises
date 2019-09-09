@@ -1,4 +1,8 @@
 {
   "name": "A Dart Exercise",
-  "files": ["main.dart", "test.dart", "solution.dart"]
+  "files": {
+    "main.dart": "main.dart", 
+    "test.dart": "test.dart", 
+    "solution.dart" : "solution.dart"
+  }
 }
