@@ -21,6 +21,8 @@ then
     exit 1
 fi
 
+"${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/pub" get
+
 declare -a  EXERCISE_NAMES=(
     "01_dart_exercise" \
 )
@@ -44,5 +46,4 @@ do
     ' >> combined.dart
 
     "${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/dart" exercise_test.dart 
-
 done
