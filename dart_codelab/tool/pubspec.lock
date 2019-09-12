@@ -64,6 +64,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.16.1"
+  dartpad_test:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "257db368b918f618158eefb59d4519845d98a17f"
+      url: "git://github.com/RedBrogdon/dartpad_test.git"
+    source: git
+    version: "0.0.0"
   front_end:
     dependency: transitive
     description:
@@ -128,7 +137,7 @@ packages:
     source: hosted
     version: "0.3.24"
   matcher:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: matcher
       url: "https://pub.dartlang.org"

@@ -1,13 +1,17 @@
-void main() {
-  try {
-    final str = empower(2, 3); 
-
-    if (str == '8') {
-      _result(true);
-    } else {
-      _result(false, ['That\'s not quite right. Keep trying!']);
-    }
-  } catch (e) {
-    _result(false, ['Tried calling `empower(2, 3)`, but received an exception: ${e.runtimeType}']);
-  }
+void main() async {
+  await testGroup(
+    'This is a DartPad test group', 
+    [
+      test('Simple success', () async {  
+        await expect(empower(2, 3), '8', hints: [
+          PossibleHint('9', 'You switched the order.'),
+          PossibleHint(isNull, 'Did you forget to return anything?'),
+          PossibleHint(anything, 'That\'s wrong. Keep trying!'),
+        ]);
+      }),
+    ],
+    reporter: (results) {
+      _result(!results.any((r) => !r.success));
+    },
+  );
 }
