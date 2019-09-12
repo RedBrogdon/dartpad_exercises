@@ -21,7 +21,7 @@ then
     exit 1
 fi
 
-"${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/pub" get
+"${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/pub" upgrade
 
 declare -a  EXERCISE_NAMES=(
     "01_dart_exercise" \
