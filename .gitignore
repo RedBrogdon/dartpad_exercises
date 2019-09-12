@@ -1,3 +1,10 @@
+# Leave out any packages that may have been downloaded.
 .dart_tool
 .packages
+
+# Leave out any files generated for testing.
 combined.dart
+
+# General personal workspace stuff
+.idea
+*.iml
