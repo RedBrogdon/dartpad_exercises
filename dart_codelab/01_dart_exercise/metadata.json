@@ -1,5 +1,6 @@
 {
   "name": "A Dart Exercise",
+  "mode": "dart",
   "files": {
     "main.dart": "main.dart", 
     "test.dart": "test.dart", 

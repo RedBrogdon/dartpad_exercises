@@ -1,9 +1,12 @@
-# Leave out any packages that may have been downloaded.
+# Packages that may have been downloaded.
 .dart_tool
 .packages
 
-# Leave out any files generated for testing.
+# Files generated for testing.
 combined.dart
+
+# Flutter odds and ends
+.metadata
 
 # General personal workspace stuff
 .idea

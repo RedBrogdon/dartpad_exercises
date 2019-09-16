@@ -1,2 +1,3 @@
 # dartpad_exercises
-Nothing much to see here yet.
+
+Example repo of DartPad-based codelabs for Dart and Flutter. 

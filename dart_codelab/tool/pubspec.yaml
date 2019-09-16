@@ -10,3 +10,4 @@ dev_dependencies:
   dartpad_test:
     git:
       url: git://github.com/RedBrogdon/dartpad_test.git
+      path: dartpad_test
