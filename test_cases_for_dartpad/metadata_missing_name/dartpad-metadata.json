@@ -1,0 +1,14 @@
+{
+  "mode": "dart",
+  "files": [
+    {
+      "name": "main.dart"
+    },
+    {
+      "name": "solution.dart"
+    },
+    {
+      "name": "test.dart"
+    }
+  ]
+}
