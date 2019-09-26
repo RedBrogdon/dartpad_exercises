@@ -10,7 +10,7 @@
     },
     {
       "name": "test.dart",
-      "path": "a_subfolder/test.dart"
+      "alternatePath": "a_subfolder/test.dart"
     }
   ]
 }
