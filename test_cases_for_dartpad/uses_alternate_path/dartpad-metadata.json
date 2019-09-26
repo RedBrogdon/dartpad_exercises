@@ -1,0 +1,16 @@
+{
+  "name": "A Dart Exercise",
+  "mode": "dart",
+  "files": [
+    {
+      "name": "main.dart"
+    },
+    {
+      "name": "solution.dart"
+    },
+    {
+      "name": "test.dart",
+      "path": "a_subfolder/test.dart"
+    }
+  ]
+}
