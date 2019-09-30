@@ -16,7 +16,7 @@ function getFlutterPath() {
 LOCAL_SDK_PATH=$(getFlutterPath)
 
 if [ -z "${LOCAL_SDK_PATH}" ]
-then 
+then
     echo "Failed to find Flutter SDK!."
     exit 1
 fi
@@ -51,5 +51,7 @@ do
 
     ' >> combined.dart
 
-    "${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/dart" exercise_test.dart 
+    "${LOCAL_SDK_PATH}/bin/cache/dart-sdk/bin/dart" exercise_test.dart
+
+    rm combined.dart
 done
