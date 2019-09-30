@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-declare -a  CODELAB_NAMES=(
+declare -a CODELAB_NAMES=(
     "dart_codelab" \
 )
 
