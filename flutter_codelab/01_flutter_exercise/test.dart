@@ -8,9 +8,7 @@ void main() async {
           home: ExampleScreen(),
         ),
         (controller) async {
-          await controller.tap(find.byType(RaisedButton));
-          await controller.pump(Duration(seconds: 1));
-          await expect(find.text('0'), findsOneWidget);
+          await expect(find.text('Some text!'), findsOneWidget);
         },
       ),
     ],
