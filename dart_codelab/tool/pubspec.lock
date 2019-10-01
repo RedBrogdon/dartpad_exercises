@@ -69,7 +69,7 @@ packages:
     description:
       path: dartpad_test
       ref: HEAD
-      resolved-ref: "589136a0f8fc5f52a033d5a31ee2d80b8da7c4f3"
+      resolved-ref: "27d4e5988f74c7e26dc7d85e33a47baac822f3a4"
       url: "git://github.com/RedBrogdon/dartpad_test.git"
     source: git
     version: "0.0.1"

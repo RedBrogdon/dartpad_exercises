@@ -10,9 +10,7 @@ class ExampleScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('AppBar!'),
       ),
-      body: Center(
-        child: Text('Some text'),
-      ),
+      body: Text('Some text'),
     );
   }
 }

@@ -24,7 +24,8 @@ fi
 "${LOCAL_SDK_PATH}/bin/flutter" pub upgrade
 
 declare -a EXERCISE_NAMES=(
-    "01_flutter_exercise" \
+    "01_flutter_stateless_exercise" \
+    "02_flutter_stateful_exercise" \
 )
 
 for EXERCISE_NAME in "${EXERCISE_NAMES[@]}"
@@ -40,7 +41,7 @@ do
     # * The `_result` function is present (without it, the code would fail to compile).
     # * The outer test method (in `exercise_test.dart`) can be used to verify that the combined
     #   user/test code works as it should by checking the output of this `_result` function.
-    echo '
+    echo "
 
     bool lastSuccess;
     List<String> lastMessages;
@@ -50,7 +51,7 @@ do
       lastMessages = messages;
     }
 
-    ' >> combined.dart
+    " >> combined.dart
 
     "${LOCAL_SDK_PATH}/bin/flutter" test exercise_test.dart
 

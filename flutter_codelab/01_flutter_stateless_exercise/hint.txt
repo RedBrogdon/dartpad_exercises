@@ -1,0 +1,1 @@
+Try wrapping the Text widget with a Center widget!
