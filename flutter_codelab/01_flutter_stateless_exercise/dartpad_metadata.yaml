@@ -1,0 +1,7 @@
+name: A Stateless Flutter Exercise
+mode: flutter
+files:
+  - name: main.dart
+  - name: solution.dart
+  - name: test.dart
+  - name: hint.txt
