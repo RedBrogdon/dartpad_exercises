@@ -1,0 +1,4 @@
+name: Flutter test with just main
+mode: flutter
+files:
+  - name: main.dart

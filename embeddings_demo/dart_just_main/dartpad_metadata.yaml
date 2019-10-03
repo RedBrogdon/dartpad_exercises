@@ -1,0 +1,4 @@
+name: Dart test with just main
+mode: dart
+files:
+  - name: main.dart

@@ -1,0 +1,7 @@
+name: Dart test with all files present
+mode: dart
+files:
+  - name: main.dart
+  - name: solution.dart
+  - name: test.dart
+  - name: hint.txt

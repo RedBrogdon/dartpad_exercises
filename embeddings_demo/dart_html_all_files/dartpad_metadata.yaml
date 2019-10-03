@@ -1,0 +1,8 @@
+name: Dart HTML test with all files
+mode: html
+files:
+  - name: main.dart
+  - name: index.html
+  - name: solution.dart
+  - name: test.dart
+  - name: hint.txt
