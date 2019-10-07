@@ -15,6 +15,8 @@ class ExampleScreen extends StatelessWidget {
 }
 
 void main() async {
+  await ui.webOnlyInitializePlatform()
+
   runApp(
     MaterialApp(
       home: ExampleScreen(),
