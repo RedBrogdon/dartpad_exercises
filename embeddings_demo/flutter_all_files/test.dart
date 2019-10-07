@@ -1,5 +1,5 @@
 void main() async {
-  await ui.webOnlyInitializePlatform()
+  await ui.webOnlyInitializePlatform();
 
   runApp(
     MaterialApp(
