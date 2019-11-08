@@ -1,8 +1,7 @@
-void main() async {
-  await ui.webOnlyInitializePlatform();
-
+void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: ExampleScreen(),
     ),
   );

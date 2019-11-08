@@ -1,23 +1,25 @@
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter/material.dart';
 
 class ExampleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('AppBar!'),
+        title: Text('Hey there, boo!'),
       ),
-      body: Text('Some text'),
+      body: Center(
+        child: Text(
+          'You are pretty okay.',
+        ),
+      ),
     );
   }
 }
 
-void main() async {
-  await ui.webOnlyInitializePlatform();
-
+void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: ExampleScreen(),
     ),
   );
