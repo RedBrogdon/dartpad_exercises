@@ -1,5 +1,5 @@
 void main() async {
-  await testGroup(
+  await group(
     'This is a Flutter test group',
     [
       testWidgets(

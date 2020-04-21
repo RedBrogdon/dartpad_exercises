@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart' hide testWidgets, expect;
 import 'package:dartpad_test/dartpad_test.dart';
 import 'package:dartpad_flutter_test/dartpad_flutter_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart' hide testWidgets, expect, group;
 import 'package:matcher/matcher.dart';
 
 class ExampleScreen extends StatefulWidget {
@@ -18,9 +18,7 @@ class _ExampleScreenState extends State<ExampleScreen> {
       children: [
         Text('$count'),
         RaisedButton(
-          onPressed: () {
-            
-          },
+          onPressed: () {},
           child: Text('Clicky'),
         ),
       ],
