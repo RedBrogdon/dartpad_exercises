@@ -2,4 +2,4 @@
 
 These exercises are used on DartPad's embedding demo page:
 
-https://dartpad.dev/embeddings_demo.html
+https://dartpad.dev/example/embed.html
